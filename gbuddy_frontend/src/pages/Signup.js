@@ -162,7 +162,7 @@ export default function SignInSide() {
             .then((res) => {
               console.log("Login Success", res.data);
               localStorage.setItem("token", res.data.token);
-              window.location.href = "/";
+              window.location.href = "/home";
               toast.success("Login Success", {
                 position: "top-right",
                 autoClose: 3500,
@@ -296,7 +296,7 @@ export default function SignInSide() {
           .catch((error) => {
             console.error("Error in creating User", error.message);
           });
-        window.location.href = "/";
+        window.location.href = "/home";
       } else {
         console.log("Invalid OTP");
         setOtpVerified(false);

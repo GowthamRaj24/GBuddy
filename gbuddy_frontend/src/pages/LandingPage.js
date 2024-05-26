@@ -34,7 +34,7 @@ const LandingPage = () => {
                         <Link to="/products" style={{ textDecoration: 'none', color: 'black', padding: '10px 20px', borderRadius: '5px', backgroundColor: 'white',border:"1px solid grey" }}>BUY</Link>
                     </div>
                     :<div style={{ display: 'flex'}}>
-                        <Link to="/login" style={{ textDecoration: 'none', color: 'black', padding: '10px 50px', borderRadius: '5px', backgroundColor: 'black',color:'white', marginRight: '10px' }}>Login</Link>
+                        <Link to="/signup" style={{ textDecoration: 'none', color: 'black', padding: '10px 50px', borderRadius: '5px', backgroundColor: 'black',color:'white', marginRight: '10px' }}>Login</Link>
                         <Link to="/signup" style={{ textDecoration: 'none', color: 'black', padding: '10px 20px', borderRadius: '5px', backgroundColor: 'white',border:"1px solid grey" }}>Sign Up</Link>
                     </div>
                     }

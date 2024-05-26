@@ -1,14 +1,16 @@
 import React from "react";
-import NavBar from "./components/navbar";
+// import NavBar from "./components/navbar";
 import Box from "./components/box";
 import bg from "../images/background.jpg";
 import image1 from "../images/hero.png";
 import image2 from "../images/background.jpg";
 import image3 from "../images/chatbot_bg.jpg";
+import Nav from "../components/Nav";
 
 const HomePage = () => {
     return (
         <>
+        <Nav/>
             <div
                 style={{
                     backgroundImage: `url(${bg})`,
@@ -26,7 +28,7 @@ const HomePage = () => {
                     color: "rgb(53, 186, 126)",
                 }}
             >
-                <NavBar />
+                {/* <NavBar /> */}
 
                 <h1>Welcome to G-Buddy!</h1>
                 <p>
@@ -54,7 +56,7 @@ const HomePage = () => {
                         title="Resources"
                         image={image2}
                         text={"Get notes on your desired subject."}
-                        path="resources"
+                        path="resourceOptions"
                     />
                     <Box
                         title="Roadmaps"
